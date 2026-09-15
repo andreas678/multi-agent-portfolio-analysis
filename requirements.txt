@@ -1,0 +1,7 @@
+anthropic
+claude-agent-sdk
+python-dotenv
+pandas
+openpyxl
+httpx
+markdown

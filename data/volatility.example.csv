@@ -1,0 +1,8 @@
+"ticker","company","sector","weight_pct","est_vol_pct","hist_vol_pct","vol_source","vol_diff"
+"AAPL","Apple Inc.","Information Technology","12.5","28","26.8","Historical","-1.2"
+"MSFT","Microsoft Corp.","Information Technology","15.0","25","23.8","Historical","-1.2"
+"NVDA","NVIDIA Corp.","Information Technology","10.0","45","43.8","Historical","-1.2"
+"TSMC.TW","Taiwan Semiconductor (example)","Information Technology","8.0","32","30.8","Historical","-1.2"
+"SAMPLE.KO","Sample Asia Chipmaker","Information Technology","4.5","80","78.8","Historical","-1.2"
+"GLD","Gold","Commodities","30.0","15","13.8","Historical","-1.2"
+"VWCE.DE","Vanguard All-World ETF","Diversified ETF","20.0","14","12.8","Historical","-1.2"

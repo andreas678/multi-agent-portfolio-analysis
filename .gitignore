@@ -1,0 +1,39 @@
+# Secrets / environment
+.env
+*.env
+config/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Rapp.history
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Claude runtime files
+.claude/scheduled_tasks.lock
+.claude/worktrees/
+
+# Private portfolio input (bring your own; see data/README.md)
+data/*.xlsx
+data/closing_prices.csv
+data/volatility.csv
+data/correlation_matrix_*.csv
+!data/closing_prices.example.csv
+!data/volatility.example.csv
+
+# Generated reports (produced per run; not committed)
+reports/*.json
+reports/*.html
+!reports/.gitkeep

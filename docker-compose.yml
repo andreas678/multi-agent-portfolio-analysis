@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  supervisor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: portfolio-multi-agent:latest
+    container_name: portfolio-supervisor
+    env_file: ./config/.env
+    volumes:
+      - ./data:/data:ro
+      - ./reports:/reports
+    working_dir: /reports
+    network_mode: host
+    mem_limit: 1500m
+    memswap_limit: 3g
+    restart: "no"
+    command: ["python", "/app/supervisor.py", "/data/portfolio.xlsx"]
